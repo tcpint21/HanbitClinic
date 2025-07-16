@@ -7,6 +7,13 @@ wordpress-data/readme.html
 wordpress-data/license.txt
 wordpress-data/.htaccess
 
+# Exclude default themes and plugins
+wordpress-data/wp-content/themes/twentytwentyfive/
+wordpress-data/wp-content/themes/twentytwentyfour/
+wordpress-data/wp-content/themes/twentytwentythree/
+wordpress-data/wp-content/plugins/
+wordpress-data/wp-content/languages/
+
 # Keep our custom theme and important config files
 !wordpress-data/wp-content/themes/hanbit-clinic/
 !wordpress-data/wp-config.php
