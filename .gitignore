@@ -1,0 +1,39 @@
+# WordPress core files (exclude core but keep our custom files)
+wordpress-data/wp-admin/
+wordpress-data/wp-includes/
+wordpress-data/wp-*.php
+wordpress-data/xmlrpc.php
+wordpress-data/readme.html
+wordpress-data/license.txt
+wordpress-data/.htaccess
+
+# Keep our custom theme and important config files
+!wordpress-data/wp-content/themes/hanbit-clinic/
+!wordpress-data/wp-config.php
+
+# Database files
+mysql_data/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using build tools)
+node_modules/
+
+# Environment files
+.env 
